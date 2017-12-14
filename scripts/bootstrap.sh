@@ -737,7 +737,6 @@ else
 fi
 
 # at this point, we completed successfully
-exit 0
 
 log "risual customisation time!"
 
