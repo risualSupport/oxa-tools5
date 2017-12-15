@@ -744,9 +744,9 @@ log "Cloning custom repo"
 sudo git clone --branch master https://github.com/risualSupport/Customfiles.git /etc/risualCustom
 
 log "Pulling down custom environment files"
-sudo mv /edx/app/edxapp/lms.env.json /edx/app/edxapp/lms.env.json.bak
-sudo cp -f /etc/risualCustom/lms.env.json /edx/app/edxapp/lms.env.json 
-sudo /edx/bin/supervisorctl restart edxapp: 
+#sudo mv /edx/app/edxapp/lms.env.json /edx/app/edxapp/lms.env.json.bak
+#sudo cp -f /etc/risualCustom/lms.env.json /edx/app/edxapp/lms.env.json 
+#sudo /edx/bin/supervisorctl restart edxapp: 
 
 log "Doing Davids stuff!"
 sudo /bin/bash /etc/risualCustom/risual_fix.sh
