@@ -748,7 +748,7 @@ log "Pulling down custom environment files"
 #sudo cp -f /etc/risualCustom/lms.env.json /edx/app/edxapp/lms.env.json 
 #sudo /edx/bin/supervisorctl restart edxapp: 
 
-log "Doing Davids stuff!"
+log "Fixing MySQL and Mongo database configuration"
 sudo /bin/bash /etc/risualCustom/risual_fix.sh
 
 log "Restart website"
